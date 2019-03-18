@@ -1,0 +1,338 @@
+* {
+	padding: 0px;
+	margin: 0px;
+}
+
+
+
+header{
+	width: 960px; /*Ancho optimizado para pantalla 1024px*/
+	height: 90px;
+	float:left;
+	/*position: fixed; header fija*/
+}
+
+
+#barraSuperior {
+	width: 560px;
+	height: 30px;
+	background-color: rgba(52, 73, 94,0.8);
+	float:right;
+}
+
+#navegacionSuperiorDerecha{
+	width: 200px;
+	height: 30px;
+	background-color: rgba(7, 188, 131, .5);
+	float:right;
+}
+
+#navegacionSuperiorDerecha ul li{
+	display: inline;
+	list-style-type: none;
+	padding-left: 5px;
+
+}
+
+#navegacionSuperiorDerecha ul li img {
+	margin-top: 5px;
+}
+
+#navegacionSuperiorDerecha ul li a{
+	margin-left: 5px;
+	text-decoration: none;
+	color:#fff;
+}
+
+#navegacionSuperiorDerecha ul li a:hover{
+	margin-left: 5px;
+	text-decoration: none;
+	color:#07BC83;
+}
+
+
+#logoSuperior{
+	width: 400px;
+	height: 90px;
+	background-color: rgba(52, 73, 94,0.8);
+	float:left;
+}
+
+#logoSuperior img{
+	margin-left: 100px;
+	margin-top: 10px;
+	width: 50%;
+	float:left;
+}
+
+#barraNavegacionPrincipal{
+	width: 560px;
+	height: 60px;
+	background-color: rgba(52, 73, 94,0.8);
+	float:left;
+}
+
+
+
+#barraNavegacionPrincipal ul li{
+	display: inline-block;
+	padding: 20px;
+}
+
+
+
+
+#barraNavegacionPrincipal .menuPrincipal > li {
+	display: inline-block;
+}
+
+#barraNavegacionPrincipal .menuPrincipal a {
+	text-decoration: none;
+	color:#fff;
+	font-size: 20px;
+}
+
+
+#barraNavegacionPrincipal .menuPrincipal a:hover {
+	text-decoration: none;
+	font-size: 20px;
+	color:#07BC83;
+}
+
+
+#barraNavegacionPrincipal .subMenu > li {
+	padding: 20px;
+	display: none;
+}
+
+
+
+
+#contenidoPrincipal{
+	width: 960px;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+	float: left;
+	background-color: rgba(236, 240, 241,0.8);
+}
+
+
+
+h1{
+	font-size: 24px;
+	font-family: Arial, "Times New Roman";
+	text-align: center;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	text-decoration: underline;
+	color: #9b59b6;
+}
+
+.contenedorFigura img {
+	width: 800px;
+	height: 400px;
+	margin-left: 50px;
+	float: left;
+	
+}
+
+.contenedorFigura figcaption {
+	color: #f1f442;
+	font-family: arial;
+	font-size: 15px;
+	background-color: #000;
+	width: 800px;
+	height: 50px;
+	float: left;
+	margin-left: 50px;
+	text-align: center;
+}
+
+.contenedorFigura p {
+	margin-left: 10px;
+	margin-top: 5px;
+}
+
+h2{
+	font-size: 18px;
+	font-family: Arial, "Times New Roman";
+	text-align: center;
+	text-decoration: underline;
+	float:left;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-left: 10px;
+}
+
+article p{
+	font-size: 16px;
+	font-family: Arial, "Times New Roman";
+	text-align: justify;
+	float:left;
+	margin: 10px;
+}
+
+
+
+article p strong{
+	color: #f40707;
+}
+
+article p em {
+	color:#2a68aa;
+}
+
+
+
+article p a {
+	text-decoration: none;
+	color: #2869af;
+	margin-top: 20px;
+}
+
+article p a:hover{
+	text-decoration: none;
+	color: #ed507a;
+}
+
+
+.fuente {
+	clear:both;
+}
+
+
+.contenedorVideo  {
+	width: 400px;
+	height: 400px;
+	float:left;
+	margin-top: 60px;
+	margin-bottom: 20px;
+	margin-left: 150px;
+
+}
+
+
+footer{
+	width: 960px;
+	height: 200px;
+	float:left;
+}
+
+#contenidoIzquierdoFooter{
+	width: 340px;
+	height: 200px;
+	background-color: rgba(52, 73, 94,0.8);
+	float:left;
+}
+
+#logoFooter{
+	width: 340px;
+	height: 100px;
+	margin-left: 30px;
+	margin-top: 30px;
+	float:left;
+}
+
+
+#eslogan{
+	width: 340px;
+	height: 50px;
+	float:left; 
+}
+
+#eslogan p{
+	font-size: 12px;
+	font-family: arial;
+	text-align: center;
+	margin-top: 10px;
+	color: #fff;
+}
+
+#accesosRapidos{
+	width: 250px;
+	height: 200px;
+	background-color: rgba(52, 73, 94,0.8);
+	box-sizing: border-box;
+	padding: 5px;
+	float:left;
+}
+
+
+
+#accesosRapidos ul li{
+	list-style-image: url("../img/viñeta.png");
+	margin-left: 120px;
+	margin-top: 15px;
+}
+
+
+
+#accesosRapidos ul li a{
+	text-decoration: none;
+	font-size: 15px;
+	font-family: arial;
+	color: #fff;
+}
+
+#accesosRapidos ul li a:hover{
+	text-decoration: none;
+	font-size: 15px;
+	font-family: arial;
+	color:#07BC83;
+}
+
+#contenidoDerechoFooter{
+	width: 370px;
+	height: 200px;
+	background-color: rgba(52, 73, 94,0.8);
+	float:left;
+
+}
+
+#resumenContacto{
+	width: 320px;
+	height: 70px;
+	float:left;
+	margin-top: 40px;
+	margin-left: 30px;
+}
+
+#resumenContacto p{
+	font-size: 14px;
+	font-family: arial;
+	color: #fff;
+	text-align: center;
+	margin-top: 5px;
+}
+
+#redesFooter{
+	width: 80px;
+	height: 30px;
+	float:left;
+	margin-left: 150px;
+}
+
+#redesFooter ul li{
+	list-style-type: none;
+	display: inline-block;
+	padding-left: 15px;
+	margin-top: 5px;
+}
+
+
+#copyright{
+	width: 320px;
+	height: 20px;
+	float:left;
+	margin-left: 30px;
+	margin-top: 30px;
+
+}
+
+#copyright p{
+	color: #fff;
+	text-align: center;
+	font-family: arial;
+	font-size: 12px;
+}
