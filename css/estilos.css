@@ -1,6 +1,7 @@
 * {
 	padding: 0px;
 	margin: 0px;
+	font-family: 'Saira Extra Condensed', sans-serif;
 }
 
 
@@ -8,7 +9,8 @@
 header{
 	width: 960px; /*Ancho optimizado para pantalla 1024px*/
 	height: 90px;
-	float:left;
+	margin-left: auto;
+	margin-right: auto;
 	/*position: fixed; header fija*/
 }
 
@@ -69,43 +71,59 @@ header{
 	width: 560px;
 	height: 60px;
 	background-color: rgba(52, 73, 94,0.8);
-	float:left;
+    position: relative;
+    float: left;
 }
 
 
 
-#barraNavegacionPrincipal ul li{
-	display: inline-block;
-	padding: 20px;
+#barraNavegacionPrincipal ul {
+	position: relative; 
+    -webkit-background-size: 50% 100%; 
+    -moz-background-size: 50% 100%; 
+    -o-background-size: 50% 100%; 
+    margin-top: 20px;
+    margin-left: 100px;
+}
+
+#barraNavegacionPrincipal li {
+	list-style: none;
+    display: inline-block;
+    width: 100px;
+    position: relative;
 }
 
 
 
+#barraNavegacionPrincipal li a{
+    -webkit-transition: all 0.5s ease-out; 
+    -moz-transition: all 0.5s ease-out; 
+    -o-transition: all 0.5s ease-out; 
+    background: rgba(7, 188, 131, .5);
+     color: #fff; 
+     position: relative;
+     padding: 3px 7px 3px 7px; 
+     width: 80px; 
+     display: block; 
+     text-decoration: none; 
+     -webkit-box-shadow: 2px 2px 4px #0e169b; 
+     -moz-box-shadow: 2px 2px 4px #0e169b; 
+     box-shadow: 2px 2px 4px #0e169b; 
+     text-align: center;
+     -webkit-border-radius: 5px; 
+   -moz-border-radius: 5px; 
+   border-radius: 5px; 
+ }
 
-#barraNavegacionPrincipal .menuPrincipal > li {
-	display: inline-block;
+#barraNavegacionPrincipal li a:hover {
+    background: #3498db; 
+    color: #fff; 
+    padding: 5px 10px 5px 10px;
+     text-align: center;
+     -webkit-border-radius: 5px; 
+   -moz-border-radius: 5px; 
+   border-radius: 5px; 
 }
-
-#barraNavegacionPrincipal .menuPrincipal a {
-	text-decoration: none;
-	color:#fff;
-	font-size: 20px;
-}
-
-
-#barraNavegacionPrincipal .menuPrincipal a:hover {
-	text-decoration: none;
-	font-size: 20px;
-	color:#07BC83;
-}
-
-
-#barraNavegacionPrincipal .subMenu > li {
-	padding: 20px;
-	display: none;
-}
-
-
 
 
 #contenidoPrincipal{
@@ -113,7 +131,7 @@ header{
 	height: auto;
 	margin-left: auto;
 	margin-right: auto;
-	float: left;
+	background-color: rgba(236, 240, 241,0.8);
 }
 
 
@@ -139,7 +157,6 @@ header{
 #servicios p{
 	text-align: center;
 	font-size: 18px;
-	font-family: arial;
 }
 
 #servicio1{
@@ -149,6 +166,7 @@ header{
 	/*background-color: #F2F2F2;*/
 	margin-left: 48px;
 }
+
 
 #imgServ1 {
 	width: 180px;
@@ -167,6 +185,8 @@ header{
 	margin-top: 60px;
 	background-color: rgba(7,188,131,.7);
 	box-shadow: 5px 10px 7px rgba(0,0,0,0.5);
+
+
 }
 
 #descripcion1{
@@ -306,12 +326,219 @@ header{
 	margin-top: 10px;
 }
 
+												/* Inicio estilos Contacto.html */
 
+
+.contenedorFormulario{
+	height: 800px;
+	width: 500px;
+	margin-left: 350px;
+	float:left;
+}
+
+
+
+.contenedorFormulario .nombre, .email {
+	height: 30px;
+	width: 200px;
+	margin-left: 30px;
+	margin-top: 30px;
+	border-style: solid;
+	border-width: 1px;
+ }
+
+
+
+.contenedorFormulario .telefono {
+	height: 30px;
+	width: 437px;
+	margin-left: 30px;
+	margin-top: 10px;
+	display: block;
+	border-style: solid;
+	border-width: 1px;
+}
+
+.contenedorFormulario .mensaje {
+	height: 200px;
+	width: 437px;
+	margin-left: 30px;
+	margin-top: 10px;
+	display: block;
+	border-style: solid;
+	border-width: 1px;
+}
+
+
+
+.contenedorFormulario .btnEnviar {
+	height: 50px;
+	width: 130px;
+	margin-left: 300px;
+	margin-top: 10px;
+	display: block;
+	border-style: solid;
+	border-width: 1px;
+
+}
+
+.contenedorFormulario input{
+  font-family : inherit;
+  font-size   : 100%;
+  color: #2ecc71;
+  text-align: top;
+}						
+		/* Fin estilos Contacto.html */
+
+
+												/* Inicio estilos Institucional.html */
+.institucional h1{
+	padding: 20px;
+	font-size: 24px;
+	text-align: center;
+	text-decoration: underline;
+	color: #d35400;
+
+}
+
+.institucional h2{
+	padding: 20px;
+	font-size: 24px;
+	text-align: center;
+	text-decoration: underline;
+	color: #d35400;
+
+}
+
+
+
+.imagenBorde{
+	width: 400px;
+	height: 250px;
+	margin-top: 20px;
+	margin-left: 250px;
+	border-image-source: url("../img/borde2.png");
+	background: url("../img/img1.jpg") left no-repeat, url("../img/img2.jpg") right no-repeat;
+ 	border-style: solid;
+ 	border width: 10px;
+ 	border-image-slice: 50 ;
+ 	border-image-width: 10px;
+	clear:both;
+
+}
+
+.institucional p{
+	font-size: 16px;
+	margin-left: 20px;
+	margin-right: 20px;
+	text-align: justify;
+	line-height: 30px;
+	float:left;
+}
+
+
+.imagenRedondeada{
+		width: 400px;
+		height: 400px;
+		margin-top: 20px;
+		margin-bottom: 20px;
+		margin-left: 250px;
+		float: left;
+}
+
+.imagenRedondeada img{
+		border: 1px;
+		-moz-border-radius: 200px;
+		-webkit-border-radius: 200px;
+		padding: 10px;
+}											/* Fin estilos Institucional.html */
+
+/* Inicio estilos Novedadades.html */
+
+.novedades h1, h2{
+	text-align: center;
+	padding: 10px;
+	margin-bottom: 30px;
+	text-decoration: underline;
+	font-size: 24px;
+	color: #8e44ad;
+}
+
+.contenedorFigura {
+	float:left;
+}
+
+.contenedorFigura img {
+	width: 800px;
+	height: 400px;
+	margin-left: 50px;
+
+}
+
+.contenedorFigura figcaption {
+	color: #f1f442;
+	font-family: arial;
+	font-size: 15px;
+	background-color: #000;
+	width: 800px;
+	height: 50px;
+	float: left;
+	margin-left: 50px;
+	text-align: center;
+}
+
+.contenedorFigura p {
+	margin-left: 10px;
+	margin-top: 5px;
+}
+
+
+.novedades p strong{
+	color: #f40707;
+}
+
+.novedades p em {
+	color:#2a68aa;
+}
+
+
+
+.novedades p a {
+	text-decoration: none;
+	color: #2869af;
+	margin-top: 20px;
+}
+
+.novedades p a:hover{
+	text-decoration: none;
+	color: #ed507a;
+}
+
+ 
+ .fuente {
+	clear:both;
+	color: red;
+}
+
+
+.contenedorVideo  {
+	width: 400px;
+	height: 400px;
+	float:left;
+	margin-top: 60px;
+	margin-bottom: 20px;
+	margin-left: 150px;
+
+}
+
+/* Fin Estilos novedades.html*/
 
 footer{
 	width: 960px;
 	height: 200px;
-	float:left;
+	margin-left: auto;
+	margin-right: auto;
+	clear:both;
 }
 
 #contenidoIzquierdoFooter{
@@ -324,9 +551,14 @@ footer{
 #logoFooter{
 	width: 340px;
 	height: 100px;
-	margin-left: 30px;
+	margin-left: 50px;
 	margin-top: 30px;
 	float:left;
+}
+
+#logoFooter img{
+	width: 80%;
+	height: 80%;
 }
 
 
@@ -338,9 +570,7 @@ footer{
 
 #eslogan p{
 	font-size: 12px;
-	font-family: arial;
 	text-align: center;
-	margin-top: 10px;
 	color: #fff;
 }
 
@@ -358,7 +588,7 @@ footer{
 #accesosRapidos ul li{
 	list-style-image: url("../img/viñeta.png");
 	margin-left: 120px;
-	margin-top: 15px;
+	margin-top: 10px;
 }
 
 
@@ -366,14 +596,12 @@ footer{
 #accesosRapidos ul li a{
 	text-decoration: none;
 	font-size: 15px;
-	font-family: arial;
 	color: #fff;
 }
 
 #accesosRapidos ul li a:hover{
 	text-decoration: none;
 	font-size: 15px;
-	font-family: arial;
 	color:#07BC83;
 }
 
@@ -395,7 +623,6 @@ footer{
 
 #resumenContacto p{
 	font-size: 14px;
-	font-family: arial;
 	color: #fff;
 	text-align: center;
 	margin-top: 5px;
@@ -412,7 +639,7 @@ footer{
 	list-style-type: none;
 	display: inline-block;
 	padding-left: 15px;
-	margin-top: 5px;
+	margin-top: 15px;
 }
 
 
@@ -428,6 +655,5 @@ footer{
 #copyright p{
 	color: #fff;
 	text-align: center;
-	font-family: arial;
 	font-size: 12px;
 }
