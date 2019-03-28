@@ -126,9 +126,34 @@ header{
 }
 
 
-#contenidoPrincipal{
+#contenidoPrincipalInicio{
 	width: 960px;
 	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: rgba(236, 240, 241,0.8);
+}
+
+#contenidoPrincipalInstitucional{
+	width: 960px;
+	height: 1800px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: rgba(236, 240, 241,0.8);
+}
+
+#contenidoPrincipalNovedades{
+	width: 960px;
+	height: 1500px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: rgba(236, 240, 241,0.8);
+}
+
+
+#contenidoPrincipalContacto{
+	width: 960px;
+	height: 600px;
 	margin-left: auto;
 	margin-right: auto;
 	background-color: rgba(236, 240, 241,0.8);
@@ -154,6 +179,7 @@ header{
 	float:left;
 }
 
+
 #servicios p{
 	text-align: center;
 	font-size: 18px;
@@ -161,18 +187,32 @@ header{
 
 #servicio1{
 	width: 180px;
-	height: 400px;
+	height: 280px;
 	float:left;
-	/*background-color: #F2F2F2;*/
 	margin-left: 48px;
+	margin-top: 60px;
 }
+
+#servicio1:hover{
+	width: 180px;
+	height: 280px;
+	float:left;
+	margin-left: 48px;
+	margin-top: 60px;
+	position: relative;
+     padding-bottom: 5px; 
+	 -webkit-transition: all 0.5s ease-out; 
+    -moz-transition: all 0.5s ease-out; 
+    -o-transition: all 0.5s ease-out; 
+    -moz-transform: translate(0px, -10px);
+}
+
 
 
 #imgServ1 {
 	width: 180px;
 	height: 180px;
 	float:left;
-	margin-top: 60px;
 	background-color: #07BC83;
 	box-shadow: 5px 10px 7px rgba(0,0,0,0.5);
 
@@ -182,7 +222,6 @@ header{
 	width: 180px;
 	height: 180px;
 	float:left;
-	margin-top: 60px;
 	background-color: rgba(7,188,131,.7);
 	box-shadow: 5px 10px 7px rgba(0,0,0,0.5);
 
@@ -191,26 +230,52 @@ header{
 
 #descripcion1{
 	width: 180px;
-	height: 80px;
+	height: 100px;
 	float:left;
-	background-color:#fff;
 	margin-bottom: 35px;
 	box-shadow: 5px 10px 7px rgba(0,0,0,0.5);
+	background-color: #fff;
+}
+
+#descripcion1 a{
+	text-decoration: none;
+	margin-left: 100px;
+	color:green;
+}
+
+#descripcion1 a:hover{
+	text-decoration: none;
+	margin-left: 100px;
+	color:black;
 }
 
 #descripcion1 p{
 	text-align: center;
-	margin-top: 10px;
+	margin-top: 15px;
 }
 
 
 
 #servicio2{
 	width: 180px;
-	height: 400px;
+	height: 280px;
 	float:left;
 	margin-left: 48px;
-	/*background-color: #F2F2F2;*/
+	margin-top: 60px;
+}
+
+#servicio2:hover{
+	width: 180px;
+	height: 280px;
+	float:left;
+	margin-left: 48px;
+	margin-top: 60px;
+	position: relative;
+     padding-bottom: 5px; 
+	 -webkit-transition: all 0.5s ease-out; 
+    -moz-transition: all 0.5s ease-out; 
+    -o-transition: all 0.5s ease-out; 
+    -moz-transform: translate(0px, -10px);
 }
 
 
@@ -219,7 +284,6 @@ header{
 	height: 180px;
 	float:left;
 	background-color: #07BC83;
-	margin-top: 60px;
 	box-shadow: 5px 10px 7px rgba(0,0,0,0.5);
 }
 
@@ -230,28 +294,54 @@ header{
 	float:left;
 	background-color: rgba(7,188,131,.7);
 	box-shadow: 5px 10px 7px rgba(0,0,0,0.5);
-	margin-top: 60px;
 }
 
 #descripcion2{
 	width: 180px;
-	height: 80px;
+	height: 100px;
 	float:left;
 	background-color:#fff;
-	margin-bottom: 35px;
 	box-shadow: 5px 10px 7px rgba(0,0,0,0.5);
 }
 
 #descripcion2 p{
 	text-align: center;
-	margin-top: 10px;
+	margin-top: 15px;
 }
+
+#descripcion2 a{
+	text-decoration: none;
+	margin-left: 100px;
+	color:green;
+}
+
+#descripcion2 a:hover{
+	text-decoration: none;
+	margin-left: 100px;
+	color:black;
+}
+
 
 #servicio3{
 	width: 180px;
-	height: 400px;
+	height: 280px;
 	float:left;
 	margin-left: 48px;
+	margin-top: 60px;
+}
+
+#servicio3:hover{
+	width: 180px;
+	height: 280px;
+	float:left;
+	margin-left: 48px;
+	margin-top: 60px;
+	position: relative;
+     padding-bottom: 5px; 
+	 -webkit-transition: all 0.5s ease-out; 
+    -moz-transition: all 0.5s ease-out; 
+    -o-transition: all 0.5s ease-out; 
+    -moz-transform: translate(0px, -10px);
 }
 
 #imgServ3{
@@ -260,7 +350,6 @@ header{
 	float:left;
 	background-color: #07BC83;
 	box-shadow: 5px 10px 7px rgba(0,0,0,0.5);
-	margin-top: 60px;
 }
 
 #imgServ3:hover{
@@ -269,13 +358,12 @@ header{
 	float:left;
 	background-color: rgba(7,188,131,.7);
 	box-shadow: 5px 10px 7px rgba(0,0,0,0.5);
-	margin-top: 60px;
 }
 
 
 #descripcion3{
 	width: 180px;
-	height: 80px;
+	height: 100px;
 	float:left;
 	background-color:#fff;
 	margin-bottom: 35px;
@@ -284,15 +372,41 @@ header{
 
 #descripcion3 p{
 	text-align: center;
-	margin-top: 10px;
+	margin-top: 15px;
+}
+
+#descripcion3 a{
+	text-decoration: none;
+	margin-left: 100px;
+	color:green;
+}
+
+#descripcion3 a:hover{
+	text-decoration: none;
+	margin-left: 100px;
+	color:black;
 }
 
 #servicio4{
 	width: 180px;
-	height: 400px;
+	height: 280px;
 	float:left;
 	margin-left: 48px;
-	/*background-color: #F2F2F2;*/
+	margin-top: 60px;
+}
+
+#servicio4:hover{
+	width: 180px;
+	height: 280px;
+	float:left;
+	margin-left: 48px;
+	margin-top: 60px;
+	position: relative;
+     padding-bottom: 5px; 
+	 -webkit-transition: all 0.5s ease-out; 
+    -moz-transition: all 0.5s ease-out; 
+    -o-transition: all 0.5s ease-out; 
+    -moz-transform: translate(0px, -10px);
 }
 
 #imgServ4{
@@ -300,7 +414,6 @@ header{
 	height: 180px;
 	float:left;
 	background-color: #07BC83;
-	margin-top: 60px;
 	box-shadow: 5px 10px 7px rgba(0,0,0,0.5);
 }
 
@@ -309,12 +422,12 @@ header{
 	height: 180px;
 	float:left;
 	background-color: rgba(7,188,131,.7);
-	margin-top: 60px;
+
 }
 
 #descripcion4{
 	width: 180px;
-	height: 80px;
+	height: 100px;
 	float:left;
 	background-color:#fff;
 	margin-bottom: 35px;
@@ -323,58 +436,62 @@ header{
 
 #descripcion4 p{
 	text-align: center;
-	margin-top: 10px;
+	margin-top: 15px;
+}
+
+
+#descripcion4 a{
+	text-decoration: none;
+	margin-left: 100px;
+	color:green;
+}
+
+#descripcion4 a:hover{
+	text-decoration: none;
+	margin-left: 100px;
+	color:black;
 }
 
 												/* Inicio estilos Contacto.html */
 
+#contenidoPrincipalContacto h2 {
+	text-align: center;
+	font-size: 30px;
+	padding-top: 50px;
+}
 
-.contenedorFormulario{
-	height: 800px;
+.contenedorFormulario {
+	height: 400px;
 	width: 500px;
-	margin-left: 350px;
-	float:left;
+	margin-top: 20px;
+	margin-left: 300px;
 }
 
-
-
-.contenedorFormulario .nombre, .email {
-	height: 30px;
-	width: 200px;
-	margin-left: 30px;
-	margin-top: 30px;
-	border-style: solid;
-	border-width: 1px;
- }
-
-
-
-.contenedorFormulario .telefono {
-	height: 30px;
-	width: 437px;
-	margin-left: 30px;
+form .nombre, .email{
 	margin-top: 10px;
-	display: block;
-	border-style: solid;
-	border-width: 1px;
+	margin-left: 10px;
+	height: 30px;
+	width: 193px;
 }
 
-.contenedorFormulario .mensaje {
+form .telefono {
+	margin-top: 10px;
+	margin-left: 10px;
+	height: 30px;
+	width: 400px;
+}
+
+form .mensaje {
+	margin-top: 10px;
+	margin-left: 10px;
 	height: 200px;
-	width: 437px;
-	margin-left: 30px;
-	margin-top: 10px;
-	display: block;
-	border-style: solid;
-	border-width: 1px;
+	width: 400px;
 }
 
-
-
-.contenedorFormulario .btnEnviar {
+.btnEnviar {
 	height: 50px;
 	width: 130px;
-	margin-left: 300px;
+	margin-left: 280px;
 	margin-top: 10px;
 	display: block;
 	border-style: solid;
@@ -382,12 +499,21 @@ header{
 
 }
 
-.contenedorFormulario input{
+.contenedorFormulario input, textarea{
   font-family : inherit;
   font-size   : 100%;
   color: #2ecc71;
   text-align: top;
-}						
+}
+
+
+.contenedorFormulario input:hover, textarea:hover{
+  font-family : inherit;
+  font-size   : 100%;
+  text-align: top;
+  color: #e74c3c;
+}
+		
 		/* Fin estilos Contacto.html */
 
 
@@ -455,80 +581,71 @@ header{
 
 /* Inicio estilos Novedadades.html */
 
-.novedades h1, h2{
-	text-align: center;
-	padding: 10px;
-	margin-bottom: 30px;
-	text-decoration: underline;
-	font-size: 24px;
-	color: #8e44ad;
-}
+
 
 .contenedorFigura {
-	float:left;
-}
-
-.contenedorFigura img {
 	width: 800px;
 	height: 400px;
 	margin-left: 50px;
-
-}
-
-.contenedorFigura figcaption {
-	color: #f1f442;
-	font-family: arial;
-	font-size: 15px;
-	background-color: #000;
-	width: 800px;
-	height: 50px;
 	float: left;
-	margin-left: 50px;
+
+}
+
+.contenedorFigura img{
+	width: 800px;
+	height: 400px;
+	float:left;
+}
+
+
+.contenedorFigura figure {
+	background-color: black;
+	color: #fff;
 	text-align: center;
+	float:left;
 }
 
-.contenedorFigura p {
-	margin-left: 10px;
-	margin-top: 5px;
+.novedades h1{
+	margin-left: 150px;
+	font-size: 25px;
+	color:red;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	float:left;
 }
 
+.novedades h2{
+	margin-left: 50px;
+	color:blue;
+	margin-top: 60px;
+	float:left;
+}
+
+.novedades p{
+	font-family: 'Roboto Slab', serif;
+	float: left;
+	text-align: justify;
+	margin-left: 15px;
+	margin-right: 15px;
+}
 
 .novedades p strong{
 	color: #f40707;
 }
 
-.novedades p em {
-	color:#2a68aa;
-}
-
-
-
-.novedades p a {
-	text-decoration: none;
-	color: #2869af;
-	margin-top: 20px;
-}
-
-.novedades p a:hover{
-	text-decoration: none;
-	color: #ed507a;
-}
-
- 
- .fuente {
-	clear:both;
-	color: red;
-}
-
-
 .contenedorVideo  {
-	width: 400px;
-	height: 400px;
+	width: 530px;
+	height: 320px;
+	margin-top: 30px;
+	margin-left: 300px;
 	float:left;
-	margin-top: 60px;
-	margin-bottom: 20px;
-	margin-left: 150px;
+}
 
+.contenedorVideo iframe {
+	width: 500px;
+	height: 300px;
+	margin-left: 10px;
+	margin-top: 10px;
 }
 
 /* Fin Estilos novedades.html*/
@@ -538,7 +655,6 @@ footer{
 	height: 200px;
 	margin-left: auto;
 	margin-right: auto;
-	clear:both;
 }
 
 #contenidoIzquierdoFooter{
