@@ -136,7 +136,7 @@ header{
 
 #contenidoPrincipalInstitucional{
 	width: 960px;
-	height: 1800px;
+	height:1600px;
 	margin-left: auto;
 	margin-right: auto;
 	background-color: rgba(236, 240, 241,0.8);
@@ -212,11 +212,14 @@ header{
 #imgServ1 {
 	width: 180px;
 	height: 180px;
+	box-sizing: border-box;
+	padding: 40px;
 	float:left;
 	background-color: #07BC83;
 	box-shadow: 5px 10px 7px rgba(0,0,0,0.5);
 
 }
+
 
 #imgServ1:hover {
 	width: 180px;
@@ -282,6 +285,8 @@ header{
 #imgServ2{
 	width: 180px;
 	height: 180px;
+	box-sizing: border-box;
+	padding: 40px;
 	float:left;
 	background-color: #07BC83;
 	box-shadow: 5px 10px 7px rgba(0,0,0,0.5);
@@ -347,6 +352,8 @@ header{
 #imgServ3{
 	width: 180px;
 	height: 180px;
+	box-sizing: border-box;
+	padding: 40px;
 	float:left;
 	background-color: #07BC83;
 	box-shadow: 5px 10px 7px rgba(0,0,0,0.5);
@@ -412,6 +419,8 @@ header{
 #imgServ4{
 	width: 180px;
 	height: 180px;
+	box-sizing: border-box;
+	padding: 40px;
 	float:left;
 	background-color: #07BC83;
 	box-shadow: 5px 10px 7px rgba(0,0,0,0.5);
@@ -564,11 +573,11 @@ form .mensaje {
 
 
 .imagenRedondeada{
-		width: 400px;
-		height: 400px;
+		width: 220px;
+		height: 220px;
 		margin-top: 20px;
 		margin-bottom: 20px;
-		margin-left: 250px;
+		margin-left: 400px;
 		float: left;
 }
 
@@ -837,7 +846,7 @@ header{
 
 #contenidoPrincipalInstitucional{
 	width: 580px;
-	height: 1800px;
+	height: 2100px;
 }
 
 #contenidoPrincipalNovedades{
@@ -958,7 +967,7 @@ header{
 
 
 .imagenRedondeada{
-		margin-left: 100px;
+		margin-left: 200px;
 }
 
 /* Fin estilos Institucional.html para resolucones de 600px a 1023px */
@@ -1068,6 +1077,441 @@ footer{
 	margin-top: 60px;
 }
 
+}	/*Fin estilos para resolucones de 600px a 1023px*/
+
+/* Inicio estilos para resoluciones hasta 599px */
+
+@media all and (max-width: 599px){
 
 
-}	/*Fin Estilos para resolucones de 600px a 1023px*/
+header{
+	width: 90%;
+	height: 180px;
+}
+
+
+#barraSuperior {
+	width: 100%;
+	height: 30px;
+
+}
+
+#navegacionSuperiorDerecha{
+	width: 200px;
+	height: 30px;
+}
+
+
+#logoSuperior{
+	width: 50%;
+	height: 150px;
+	box-sizing: border-box;
+	padding-left: 5px;
+}
+
+#logoSuperior img{
+	margin-left: 20%;
+	margin-top: 35px;
+	width: 80%;
+	height: 50%;
+}
+
+#barraNavegacionPrincipal{
+	width: 50%;
+	height: 150px;
+}
+
+
+
+#barraNavegacionPrincipal ul {
+	width: 40%;
+	height: 130px; 
+    margin-top: 15px;
+    margin-left: 20%;
+
+}
+
+#barraNavegacionPrincipal li {
+	margin-top: 15px;
+    display: block;
+    width: 100px;
+}
+
+
+#contenidoPrincipalInicio{
+	width: 90%;
+	height: 950px;
+}
+
+
+#imagenPrincipal{
+	width: 100%;
+	height: 132px;
+	float:left;
+	background-size: 100%;
+}
+
+
+#servicios{
+	width: 100%;
+	height: auto;
+}
+
+
+#servicios p{
+	font-size: 12px;
+}
+
+#servicio1{
+	width: 100px;
+	height: 170px;
+	margin-left: 35%;
+	margin-top: 30px;
+}
+
+#servicio1:hover{
+	width: 100px; 
+	height: 170px;
+	margin-left: 35%;
+	margin-top: 30px;
+}
+
+
+
+#imgServ1 {
+	width: 100px;
+	height: 100px;
+	padding: 0px;
+}
+
+
+#imgServ1:hover {
+	width: 100px;
+	height: 100px;
+}
+
+#descripcion1{
+	width: 100px;
+	height: 70px;
+}
+
+#descripcion1 a{
+	margin-left: 50px;
+}
+
+#descripcion1 a:hover{
+	margin-left: 50px;
+}
+
+#descripcion1 p{
+	margin-top: 5px;
+}
+
+#servicio2{
+	width: 100px;
+	height: 170px;
+	margin-left: 35%;
+	margin-top: 30px;
+}
+
+#servicio2:hover{
+	width: 100px; 
+	height: 170px;
+	margin-left: 35%;
+	margin-top: 30px;
+}
+
+
+#imgServ2 {
+	width: 100px;
+	height: 100px;
+	padding: 0px;
+}
+
+
+#imgServ2:hover {
+	width: 100px;
+	height: 100px;
+}
+
+#descripcion2{
+	width: 100px;
+	height: 70px;
+}
+
+#descripcion2 a{
+	margin-left: 50px;
+}
+
+#descripcion2 a:hover{
+	margin-left: 50px;
+}
+
+#descripcion2 p{
+	margin-top: 5px;
+}
+
+#servicio3{
+	width: 100px;
+	height: 170px;
+	margin-left: 35%;
+	margin-top: 30px;
+}
+
+#servicio3:hover{
+	width: 100px; 
+	height: 170px;
+	margin-left: 35%;
+	margin-top: 30px;
+}
+
+
+
+#imgServ3{
+	width: 100px;
+	height: 100px;
+	padding: 0px;
+}
+
+
+#imgServ3:hover {
+	width: 100px;
+	height: 100px;
+}
+
+#descripcion3{
+	width: 100px;
+	height: 70px;
+}
+
+#descripcion3 a{
+	margin-left: 50px;
+}
+
+#descripcion3 a:hover{
+	margin-left: 50px;
+}
+
+#descripcion3 p{
+	margin-top: 5px;
+}
+
+#servicio4{
+	width: 100px;
+	height: 170px;
+	margin-left: 35%;
+	margin-top: 30px;
+}
+
+#servicio4:hover{
+	width: 100px; 
+	height: 170px;
+	margin-left: 35%;
+	margin-top: 30px;
+}
+
+
+
+#imgServ4{
+	width: 100px;
+	height: 100px;
+	padding: 0px;
+}
+
+
+#imgServ4:hover {
+	width: 100px;
+	height: 100px;
+}
+
+#descripcion4{
+	width: 100px;
+	height: 70px;
+}
+
+#descripcion4 a{
+	margin-left: 50px;
+}
+
+#descripcion4 a:hover{
+	margin-left: 50px;
+}
+
+#descripcion4 p{
+	margin-top: 5px;
+}
+
+												/* Inicio estilos Contacto.html */
+
+#contenidoPrincipalContacto{
+	width: 90%;
+	height: 600px;
+}
+
+#contenidoPrincipalContacto h2 {
+	margin-left: 0px;
+	font-size: 20px;
+}
+
+.contenedorFormulario {
+	width: 100%;
+	height: 420px;
+	margin-left: 0px;
+}
+
+form .nombre, .email{
+	width: 90%;
+}
+
+form .telefono {
+	width: 90%;
+}
+
+form .mensaje {
+	width: 90%;
+}
+
+.btnEnviar {
+	margin-left: 90px;
+	margin-top: 10px;
+}		
+		/* Fin estilos Contacto.html */
+
+
+												/* Inicio estilos Institucional.html */
+
+#contenidoPrincipalInstitucional{
+	width: 90%;
+	height: 3000px;
+}
+
+.imagenBorde{
+	width: 80%;
+	height: 180px;
+	margin-left: 10%;
+ 	border width: 10px;
+ 	background-size: 50%;
+ }
+
+
+.imagenRedondeada{
+		width: 90%;
+		margin-left: 20%;
+}
+
+/* Inicio estilos Novedadades.html */
+
+#contenidoPrincipalNovedades{
+	width: 90%;
+	height: 2350px; 
+}
+
+.novedades h1, h2{
+	margin-left: 10%;
+	margin-right: 5px;
+	font-size: 15px;
+	text-align: center;
+}
+
+.novedades h2 {
+	margin-top: 60px;
+	margin-left: 10px;
+}
+
+
+.contenedorFigura {
+	width: 100%;
+	height: 200px;
+	margin-left: 0px;
+
+}
+
+.contenedorFigura img{
+	width: 100%;
+	height: 200px;
+}
+
+.contenedorFigura figcaption{
+	font-size: 9px;
+}
+
+
+.contenedorVideo  {
+	width: 90%;
+	margin-left: 10%;
+}
+
+.contenedorVideo iframe {
+	width: 90%;
+}
+
+/* Fin Estilos novedades.html*/
+
+footer{
+	width: 90%;
+	height:auto;
+}
+
+#contenidoIzquierdoFooter{
+	width: 100%;
+	height: 170px;
+}
+
+#logoFooter{
+	width: 90%;
+	height: 100px;
+	margin-left: 15px;
+}
+
+
+#eslogan{
+	width: 90%;
+	height: 20px;
+	margin-top: 10px;
+	margin-left: 10px;
+	float:left;
+}
+
+#accesosRapidos{
+	width: 100%;
+	height: 200px;
+	margin-top: 0px;
+}
+
+#accesosRapidos ul li{
+	margin-left: 45%; 
+	margin-top: 13px;
+}
+
+#contenidoDerechoFooter{
+	width: 100%;
+	height: 220px;
+}
+
+#resumenContacto{
+	width: 100%;
+	height: 100px;
+	float:left;
+	margin-top: 30px;
+	margin-left: 0px;
+}
+
+
+#redesFooter{
+	width: 80px;
+	height: 50px;
+	float:left;
+	margin-left: 35%;
+	margin-top: 10px;
+}
+
+
+#copyright{
+	width: 100%;
+	height: 20px;
+	float:left;
+	margin-left: 0px;
+	margin-top: 0px;
+}
+
+} /* Fin estilos para resoluciones hasta 599px */
